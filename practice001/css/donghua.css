@@ -1,5 +1,5 @@
 #all{
-      animation:all 20s infinite;
+      animation:all 15s infinite;
 }
 #lefttop{
       height:49%;
@@ -73,21 +73,21 @@ img.zuoshang{
       left:5px;
       top:5px;
 }
-    img.youshang{
+img.youshang{
       height:49%;
       width:49%;
       position:absolute;
       right:5px;
       top:5px;
 }
-    img.zuoxia{
+img.zuoxia{
       height:49%;
       width:49%;
       position:absolute;
       left:5px;
       bottom:5px;
 }
-    img.youxia{
+img.youxia{
       height:49%;
       width:49%;
       position:absolute;
