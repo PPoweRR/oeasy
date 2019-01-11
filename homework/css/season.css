@@ -73,7 +73,7 @@ body,html {
   85%{opcity: 100}
   100%{opcity:0}
 }
-@keyframes cyle{
+@keyframes cycle{
   0%{opcity: 0}
   75%{opcity: 0}
   85%{opcity: 100}
