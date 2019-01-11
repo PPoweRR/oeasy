@@ -7,7 +7,7 @@
       position:absolute;
       left:5px;
       top:5px;
-      animation: lefttop 20s infinite;
+      animation: lefttop 15s infinite;
 }
 #righttop{
       height:49%;
@@ -15,7 +15,7 @@
       position:absolute;
       right:5px;
       top:5px;
-      animation: righttop 20s infinite;
+      animation: righttop 15s infinite;
 }
 #leftbottom{
       height:49%;
@@ -23,7 +23,7 @@
       position:absolute;
       left:5px;
       bottom:5px;
-      animation: leftbottom 20s infinite;
+      animation: leftbottom 15s infinite;
 }
 #rightbottom{
       height:49%;
@@ -31,35 +31,39 @@
       position:absolute;
       right:5px;
       bottom:5px;
-      animation: rightbottom 20s infinite;
+      animation: rightbottom 15s infinite;
 }
 @keyframes all {
-    0%{opacity: 100}
+    0%{opacity: 0}
+    10%{opacity: 100}
     20%{opacity: 0}
     100%{opacity: 0}
 }
 @keyframes lefttop {
     0%{opacity: 0}
-    20%{opacity: 100}
+    20%{opacity: 0}
+    30%{opacity: 100}
     40%{opacity: 0}
     100%{opacity: 0}
 }
 @keyframes righttop {
     0%{opacity: 0}
-    40%{opacity: 100}
-    60%{opacity: 0}
+    40%{opacity: 0}
+    50%{opacity: 100}
+    60%{opacity: 0}    
     100%{opacity: 0}
 }
 @keyframes leftbottom {
     0%{opacity: 0}
-    70%{opacity: 0}
-    60%{opacity: 100}
+    60%{opacity: 0}
+    70%{opacity: 100}
     80%{opacity: 0}
     100%{opacity: 0}
 }
 @keyframes rightbottom {
     0%{opacity: 0}
-    80%{opacity: 100}
+    80%{opacity:0}
+    90%{opacity: 100}
     100%{opacity: 0}
 }
 img.zuoshang{
