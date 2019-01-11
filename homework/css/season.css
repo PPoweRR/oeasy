@@ -68,10 +68,10 @@ body,html {
   100%{opacity:0}
 }
 @keyframes winter{
-  0%{opcity: 0}
-  75%{opcity: 0}
-  85%{opcity: 100}
-  100%{opcity:0}
+  0%{opacity: 0}
+  75%{opacity: 0}
+  85%{opacity: 100}
+  100%{opacity:0}
 }
 @keyframes cycle{
   0%{opacity: 0}
