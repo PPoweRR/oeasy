@@ -1,0 +1,83 @@
+body,html {
+  width:100%;
+  height:100%
+  position:relative;
+}
+#spring{
+  background-color:green;
+  position:absolute;
+  text-align:center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-fize:200px;
+  animation: spring 8s infinite;
+}
+#summer{
+  background-color:green;
+  position:absolute;
+  text-align:center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-fize:200px;
+  animation: summer 8s infinite;
+}
+#autumn{
+  background-color:green;
+  position:absolute;
+  text-align:center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-fize:200px;
+  animation: autumn 8s infinite;
+}
+#winter{
+  background-color:green;
+  position:absolute;
+  text-align:center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-fize:200px;
+  animation: winter 8s infinite;
+}
+#cycle{
+  font-fize:40px;
+  animation: cycle 8s infinite;
+}
+@keyframes spring{
+  0%{opcity: 0}
+  25%{opcity: 100}
+  40%{opcity: 0}
+  100%{opcity:0}
+}
+@keyframes summer{
+  0%{opcity: 0}
+  25%{opcity: 0}
+  35%{opcity: 100}
+  50%{opcity: 0}
+  100%{opcity:0}
+}
+@keyframes autumn{
+  0%{opcity: 0}
+  50%{opcity: 0}
+  60%{opcity: 100}
+  75%{opcity: 0}
+  100%{opcity:0}
+}
+@keyframes winter{
+  0%{opcity: 0}
+  75%{opcity: 0}
+  85%{opcity: 100}
+  100%{opcity:0}
+}
+@keyframes cyle{
+  0%{opcity: 0}
+  75%{opcity: 0}
+  85%{opcity: 100}
+  95%{opcity: 0}
+  100%{opcity:0}
+}
+  
