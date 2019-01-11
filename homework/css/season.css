@@ -48,24 +48,24 @@ body,html {
   animation: cycle 8s infinite;
 }
 @keyframes spring{
-  0%{opcity: 0}
-  25%{opcity: 100}
-  40%{opcity: 0}
-  100%{opcity:0}
+  0%{opacity: 0}
+  25%{opacity: 100}
+  40%{opacity: 0}
+  100%{opacity:0}
 }
 @keyframes summer{
-  0%{opcity: 0}
-  25%{opcity: 0}
-  35%{opcity: 100}
-  50%{opcity: 0}
-  100%{opcity:0}
+  0%{opacity: 0}
+  25%{opacity: 0}
+  35%{opacity: 100}
+  50%{opacity: 0}
+  100%{opacity:0}
 }
 @keyframes autumn{
-  0%{opcity: 0}
-  50%{opcity: 0}
-  60%{opcity: 100}
-  75%{opcity: 0}
-  100%{opcity:0}
+  0%{opacity: 0}
+  50%{opacity: 0}
+  60%{opacity: 100}
+  75%{opacity: 0}
+  100%{opacity:0}
 }
 @keyframes winter{
   0%{opcity: 0}
@@ -74,10 +74,10 @@ body,html {
   100%{opcity:0}
 }
 @keyframes cycle{
-  0%{opcity: 0}
-  75%{opcity: 0}
-  85%{opcity: 100}
-  95%{opcity: 0}
-  100%{opcity:0}
+  0%{opacity: 0}
+  75%{opacity: 0}
+  85%{opacity: 100}
+  95%{opacity: 0}
+  100%{opacity:0}
 }
   
