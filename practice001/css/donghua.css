@@ -2,32 +2,32 @@
       animation:all 15s infinite;
 }
 #lefttop{
-      height:49%;
-      width:49%;
+      height:500px;
+      width:500px;
       position:absolute;
       left:5px;
       top:5px;
       animation: lefttop 15s infinite;
 }
 #righttop{
-      height:49%;
-      width:49%;
+      height:500px;
+      width:500px;
       position:absolute;
       right:5px;
       top:5px;
       animation: righttop 15s infinite;
 }
 #leftbottom{
-      height:49%;
-      width:49%;
+      height:500px;
+      width:500px;
       position:absolute;
       left:5px;
       bottom:5px;
       animation: leftbottom 15s infinite;
 }
 #rightbottom{
-      height:49%;
-      width:49%;
+      height:500px;
+      width:500px;
       position:absolute;
       right:5px;
       bottom:5px;
