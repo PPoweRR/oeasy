@@ -1,6 +1,6 @@
 body,html {
   width:100%;
-  height:100%
+  height:100%;
   position:relative;
 }
 #spring{
@@ -10,7 +10,7 @@ body,html {
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
-  font-fize:200px;
+  font-size:200px;
   animation: spring 8s infinite;
 }
 #summer{
@@ -20,7 +20,7 @@ body,html {
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
-  font-fize:200px;
+  font-size:200px;
   animation: summer 8s infinite;
 }
 #autumn{
@@ -30,7 +30,7 @@ body,html {
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
-  font-fize:200px;
+  font-size:200px;
   animation: autumn 8s infinite;
 }
 #winter{
@@ -40,11 +40,11 @@ body,html {
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
-  font-fize:200px;
+  font-size:200px;
   animation: winter 8s infinite;
 }
 #cycle{
-  font-fize:40px;
+  font-size:40px;
   animation: cycle 8s infinite;
 }
 @keyframes spring{
